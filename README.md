@@ -8,9 +8,10 @@ A flight simulator that models and visualizes 2d projectile motion, comparing an
 
 ## Mathematical model
 * Ideal trajectory: uses kinematics parabolic equations
-* Real trajectory: incorporates a viscous friction force proportional to velocity (according to Stokes' law).
+* 1st attempt at real trajectory: incorporates a viscous friction force which acts only on the vertical motion
+* Real trajectory: incorporates a viscous friction force, proportional to velocity (according to Stokes' law), tht acts on the direction of motion.
 
-*NOTE: In this approach, terminal velocity and buoyant force are neglected*
+*NOTE: In this approach buoyant force is neglected*
 
 ## Technologies used
 * Python 3
